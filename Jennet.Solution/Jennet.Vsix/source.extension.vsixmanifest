@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="Jennet.Vsix.b20e05e7-826c-44b9-8847-a4ca0f81b019" Version="1.0" Language="en-US" Publisher="Stamatis Mavrikis" />
-    <DisplayName>Jennet.Vsix</DisplayName>
+    <Identity Id="VSIXProject1.7a67f1fd-34b5-4a1a-a43c-45386db3699e" Version="1.0" Language="en-US" Publisher="Stamatis Mavrikis" />
+    <DisplayName>VSIXProject1</DisplayName>
     <Description>Empty VSIX Project.</Description>
   </Metadata>
   <Installation>
@@ -16,7 +16,4 @@
   <Prerequisites>
     <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
   </Prerequisites>
-  <Assets>
-    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
-  </Assets>
 </PackageManifest>
