@@ -36,7 +36,7 @@ namespace Jennet.UI
             {
                 string fileContent = System.IO.File.ReadAllText(filePath);
                 var ocelot = JsonSerializer.Deserialize<OcelotDTO>(fileContent);
-                dataGrid.DataContext = ocelot.ReRoutes;
+                dataGrid.ItemsSource = ocelot.ReRoutes;
             }
         }
 
