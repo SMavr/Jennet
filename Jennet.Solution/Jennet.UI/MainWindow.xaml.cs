@@ -23,6 +23,11 @@ namespace Jennet.UI
         public MainWindow()
         {
             InitializeComponent();
+            Initialize();
+        }
+
+        private void Initialize()
+        {
             string FilePath = string.Join(" ", Environment.GetCommandLineArgs().Skip(1).ToArray());
             if (!string.IsNullOrEmpty(FilePath))
             {
@@ -30,5 +35,6 @@ namespace Jennet.UI
                 textBox.Text = FileContent;
             }
         }
+
     }
 }
