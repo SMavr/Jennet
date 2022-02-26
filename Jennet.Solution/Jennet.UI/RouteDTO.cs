@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Jennet.UI
 {
-    internal class RouteDTO
+    public class RouteDTO
     {
         public int UpstreamPathTemplate { get; set; }
         public int DownstreamPathTemplate { get; set; }

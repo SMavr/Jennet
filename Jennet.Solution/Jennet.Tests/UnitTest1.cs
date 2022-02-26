@@ -37,7 +37,7 @@ namespace Jennet.Tests
 
         private class OcelotResult
         {
-            public List<Route> ReRoutes { get; set; }
+            public IEnumerable<Route> ReRoutes { get; set; }
         }
 
     }
