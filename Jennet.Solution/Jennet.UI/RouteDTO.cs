@@ -8,9 +8,9 @@ namespace Jennet.UI
 {
     public class RouteDTO
     {
-        public int UpstreamPathTemplate { get; set; }
-        public int DownstreamPathTemplate { get; set; }
-        public int DownstreamScheme { get; set; }
-        public int DownstreamHostAndPorts { get; set; }
+        public string UpstreamPathTemplate { get; set; }
+        public string DownstreamPathTemplate { get; set; }
+        //public string DownstreamScheme { get; set; }
+        //public string DownstreamHostAndPorts { get; set; }
     }
 }

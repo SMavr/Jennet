@@ -29,7 +29,9 @@ namespace Jennet.UI
 
         private void Initialize()
         {
-            string filePath = string.Join(" ", Environment.GetCommandLineArgs().Skip(1).ToArray());
+
+            //string filePath = string.Join(" ", Environment.GetCommandLineArgs().Skip(1).ToArray());
+            string filePath = @"C:/Projects/Personal/Jennet/Jennet.Solution/Test.json";
             if (!string.IsNullOrEmpty(filePath))
             {
                 string fileContent = System.IO.File.ReadAllText(filePath);
