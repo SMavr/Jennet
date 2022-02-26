@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -28,11 +29,12 @@ namespace Jennet.UI
 
         private void Initialize()
         {
-            string FilePath = string.Join(" ", Environment.GetCommandLineArgs().Skip(1).ToArray());
-            if (!string.IsNullOrEmpty(FilePath))
+            string filePath = string.Join(" ", Environment.GetCommandLineArgs().Skip(1).ToArray());
+            if (!string.IsNullOrEmpty(filePath))
             {
-                string FileContent = System.IO.File.ReadAllText(FilePath);
-                textBox.Text = FileContent;
+                string fileContent = System.IO.File.ReadAllText(filePath);
+                var ocelot = JsonSerializer.Deserialize<OcelotDTO>(fileContent);
+                dataGrid.DataContext = ocelot.ReRoutes;
             }
         }
 
