@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{70F0D75D
 		Test.json = Test.json
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jennet.Tests", "Jennet.Tests\Jennet.Tests.csproj", "{8A85F899-27D1-4C17-8E3A-8A3573046EF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,9 +22,16 @@ Global
 		{A55A88AF-0FE9-4094-91F3-3FF967B27FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A55A88AF-0FE9-4094-91F3-3FF967B27FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A55A88AF-0FE9-4094-91F3-3FF967B27FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A85F899-27D1-4C17-8E3A-8A3573046EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A85F899-27D1-4C17-8E3A-8A3573046EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A85F899-27D1-4C17-8E3A-8A3573046EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A85F899-27D1-4C17-8E3A-8A3573046EF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A85F899-27D1-4C17-8E3A-8A3573046EF2} = {70F0D75D-8709-401F-937F-A42A2CBD39DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {92C42888-3C6C-4879-B90F-3A8157B38FDA}
