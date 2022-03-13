@@ -3,14 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jennet.UI", "Jennet.UI\Jennet.UI.csproj", "{A55A88AF-0FE9-4094-91F3-3FF967B27FCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jennet.UI", "Jennet.UI\Jennet.UI.csproj", "{A55A88AF-0FE9-4094-91F3-3FF967B27FCD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{70F0D75D-8709-401F-937F-A42A2CBD39DF}"
 	ProjectSection(SolutionItems) = preProject
 		Test.json = Test.json
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jennet.Tests", "Jennet.Tests\Jennet.Tests.csproj", "{8A85F899-27D1-4C17-8E3A-8A3573046EF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jennet.Tests", "Jennet.Tests\Jennet.Tests.csproj", "{8A85F899-27D1-4C17-8E3A-8A3573046EF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

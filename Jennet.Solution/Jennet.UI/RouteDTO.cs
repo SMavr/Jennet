@@ -10,7 +10,7 @@ namespace Jennet.UI
     {
         public string UpstreamPathTemplate { get; set; }
         public string DownstreamPathTemplate { get; set; }
-        //public string DownstreamScheme { get; set; }
-        //public string DownstreamHostAndPorts { get; set; }
+        public string DownstreamScheme { get; set; }
+        public string DownstreamHostAndPorts { get; set; }
     }
 }
