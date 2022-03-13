@@ -1,3 +1,5 @@
+using Jennet.Infrastructure;
+using Jennet.UI;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -30,19 +32,10 @@ namespace Jennet.Tests
         {
             string text = File.ReadAllText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory,  @"..\..\..\..\Test.json"));
 
-            var test =  JsonSerializer.Deserialize<OcelotResult>(text);
+            var test =  JsonSerializer.Deserialize<OcelotDTO>(text);
         }
 
-        private class Route
-        {
-            public string UpstreamPathTemplate { get; set; }
-            public string DownstreamPathTemplate { get; set; }
-        }
-
-        private class OcelotResult
-        {
-            public IEnumerable<Route> ReRoutes { get; set; }
-        }
+     
 
     }
 

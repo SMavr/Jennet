@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Jennet.UI
+namespace Jennet.Infrastructure
 {
     public class OcelotDTO
     {

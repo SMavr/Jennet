@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{70F0D75D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jennet.Tests", "Jennet.Tests\Jennet.Tests.csproj", "{8A85F899-27D1-4C17-8E3A-8A3573046EF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jennet.Infrastructure", "Jennet.Infrastructure\Jennet.Infrastructure.csproj", "{939704BB-2576-4C0C-B7A9-664253B77E49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{8A85F899-27D1-4C17-8E3A-8A3573046EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A85F899-27D1-4C17-8E3A-8A3573046EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A85F899-27D1-4C17-8E3A-8A3573046EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{939704BB-2576-4C0C-B7A9-664253B77E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{939704BB-2576-4C0C-B7A9-664253B77E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{939704BB-2576-4C0C-B7A9-664253B77E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{939704BB-2576-4C0C-B7A9-664253B77E49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
