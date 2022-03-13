@@ -2,9 +2,9 @@
 {
     public class RouteDTO
     {
-        public string UpstreamPathTemplate { get; set; }
-        public string DownstreamPathTemplate { get; set; }
-        public string DownstreamScheme { get; set; }
-        public List<DownstreamHostAndPorts> DownstreamHostAndPorts { get; set; }
+        public string UpstreamPathTemplate { get; init; }
+        public string DownstreamPathTemplate { get; init; }
+        public string DownstreamScheme { get; init; }
+        public List<DownstreamHostAndPorts> DownstreamHostAndPorts { get; init; }
     }
 }

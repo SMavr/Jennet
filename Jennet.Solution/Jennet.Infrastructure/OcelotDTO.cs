@@ -8,6 +8,6 @@ namespace Jennet.Infrastructure
 {
     public class OcelotDTO
     {
-        public IEnumerable<RouteDTO> ReRoutes { get; set; }
+        public IEnumerable<RouteDTO> ReRoutes { get; init; }
     }
 }

@@ -2,8 +2,8 @@
 {
     public class DownstreamHostAndPorts
     {
-        public string Host { get; set; }
+        public string Host { get; init; }
 
-        public int Port { get; set; }
+        public int Port { get; init; }
     }
 }
