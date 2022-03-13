@@ -11,6 +11,13 @@ namespace Jennet.Infrastructure
         public string UpstreamPathTemplate { get; set; }
         public string DownstreamPathTemplate { get; set; }
         public string DownstreamScheme { get; set; }
-        public string DownstreamHostAndPorts { get; set; }
+        public List<DownstreamHostAndPorts> DownstreamHostAndPorts { get; set; }
+    }
+
+    public class DownstreamHostAndPorts
+    {
+        public string Host { get; set; }
+
+        public int Port { get; set; }
     }
 }
